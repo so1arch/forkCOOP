@@ -9,8 +9,7 @@ The closed-source mod remains authoritative for the generated client and server 
 - `guides/` holds every page. Its folders become the sidebar's groups, labelled with the folder name exactly as written, so folders are named the way readers should see them ("Players", "Quests, dialogue and shops"). Their URLs are the lowercased, dashed form (`quests-dialogue-and-shops/`). The generator renders every guide group expanded, so the tree is kept to **one level of folders**: a new page goes into an existing group, and a new group needs a good reason.
   - `overview.md` is the introduction and the task index ("I want to... -> page"). Add a row there for every new page.
   - `Getting started/` is the beginner path, read in order: install and run a server, a first resource, TypeScript, a larger layout, debugging.
-  - `Core concepts/` holds the ideas every other page leans on: authority, resources, events, networking, state, positions, virtual worlds, sharing code. Other pages link here instead of re-explaining them.
-  - Server features are grouped by what they act on: `Players/`, `World/`, `NPCs and animals/`, `Quests, dialogue and shops/`. A feature with a client side too (chat, raycasts) keeps both halves on one page.
+  - `Core concepts/` holds the ideas every other page leans on: authority, resou1 animals/`, `Quests, dialogue and shops/`. A feature with a client side too (chat, raycasts) keeps both halves on one page.
   - `Client scripting/` covers code in each player's game (input, camera, placement, sound, Discord), and `User interface/` covers pages, HUD, map and native screens.
   - `Tutorials/` holds multi-file builds, all in the same shape: before you start, what you will learn, file tree, numbered steps, try it, next steps.
   - `Hosting a server/` is for server operators.
