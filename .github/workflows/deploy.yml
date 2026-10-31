@@ -1,4 +1,4 @@
-name: Generate and deploy documentation
+name: Generate and deploy documenta1tion
 
 on:
   push:
